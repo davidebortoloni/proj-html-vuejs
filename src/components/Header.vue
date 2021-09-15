@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <header>
     <TopBar id="headerTopBar" />
     <Nav id="headerNav" />
-  </div>
+  </header>
 </template>
 
 <script>
@@ -19,7 +19,17 @@ export default {
 </script>
 
 <style scoped lang="scss">
-#headerTopBar {
-  background-color: #3d3d3d;
+@import "../assets/scss/_vars.scss";
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  #headerTopBar {
+    background-color: $thirdColor;
+  }
+  #headerNav {
+    background-color: $fifthColor;
+  }
 }
 </style>

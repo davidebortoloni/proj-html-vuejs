@@ -2,7 +2,9 @@
   <div>
     <div class="container">
       <div class="row justify-content-between py-2 text-white">
-        <div class="col-auto">(001)88451234 88455438</div>
+        <div class="col-auto tel text-small">
+          (001) 88451234&nbsp; &nbsp; &nbsp;88455438
+        </div>
         <div class="col-auto">
           <a href="#">
             <fa class="mx-3 clickable" :icon="['fab', 'facebook-f']" />
@@ -28,9 +30,14 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/_vars.scss";
 a {
-  color: white;
+  color: $fifthColor;
   &:hover {
-    color: $mainColor;
+    color: $sixthColor;
   }
+}
+.tel {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: $fifthColor;
 }
 </style>
