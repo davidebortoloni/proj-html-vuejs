@@ -60,12 +60,6 @@ export default {
     h2 {
       font-weight: 700 !important;
     }
-    p {
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 300;
-      font-size: 16px;
-      color: $thirdColor;
-    }
     ul {
       font-family: "Quicksand", sans-serif;
       font-weight: 700;

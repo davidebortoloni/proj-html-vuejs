@@ -89,9 +89,6 @@ export default {
 @import "../../assets/scss/_vars.scss";
 
 #services {
-  h2 {
-    font-weight: 600 !important;
-  }
   .card {
     border: none;
     box-shadow: 0 0 40px -15px $sixthColor;
@@ -102,6 +99,9 @@ export default {
     &:hover {
       background: linear-gradient(90deg, $secondaryColor, $mainColor);
       color: white;
+      p {
+        color: white !important;
+      }
     }
     .icon {
       font-size: 70px;

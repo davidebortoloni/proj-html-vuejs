@@ -4,6 +4,7 @@
     <Services class="distancing" />
     <OurMission class="distancing" />
     <OurProjects class="distancing" />
+    <Testimonials class="distancing" />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from "./main_components/Hero.vue";
 import Services from "./main_components/Services.vue";
 import OurMission from "./main_components/OurMission.vue";
 import OurProjects from "./main_components/OurProjects.vue";
+import Testimonials from "./main_components/Testimonials.vue";
 
 export default {
   name: "Main",
@@ -20,6 +22,7 @@ export default {
     Services,
     OurMission,
     OurProjects,
+    Testimonials,
   },
 };
 </script>
