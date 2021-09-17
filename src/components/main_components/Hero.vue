@@ -1,4 +1,5 @@
 <template>
+  <!-- Intestazione della pagina -->
   <div id="hero">
     <div class="container h-100">
       <div class="h-100 row align-items-center">
@@ -49,8 +50,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// Importazione variabili
 @import "../../assets/scss/_vars.scss";
 
+// Stilizzazione hero
 #hero {
   height: 1100px;
   overflow: hidden;

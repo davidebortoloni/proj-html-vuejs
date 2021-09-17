@@ -1,4 +1,5 @@
 <template>
+  <!-- Menù principale -->
   <nav id="top-nav">
     <div class="container">
       <div class="row justify-content-between align-items-center py-4">
@@ -8,6 +9,7 @@
           /></a>
         </div>
         <div class="col-auto">
+          <!-- Links menù -->
           <ul class="m-0">
             <li
               class="px-3"
@@ -20,7 +22,9 @@
           </ul>
         </div>
         <div class="col-auto">
+          <!-- Bottone del carrello -->
           <button class="button btn-standard">Purchase</button>
+          <!-- Bottone per la ricerca -->
           <fa class="ms-4 clickable text-main" :icon="['fas', 'search']" />
         </div>
       </div>
@@ -31,8 +35,10 @@
 <script>
 export default {
   name: "MainBar",
+  // Dati necessari per la navigazione
   data() {
     return {
+      // Array con voci del menù
       links: [
         {
           id: 1,
@@ -77,8 +83,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// Importazione variabili
 @import "../../assets/scss/_vars.scss";
 
+// Stilizzazione lista voci del menù
 ul {
   list-style-type: none;
   font-size: 14px;

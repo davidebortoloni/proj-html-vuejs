@@ -1,4 +1,5 @@
 <template>
+  <!-- Divisore tra elementi -->
   <div class="divider my-4">&nbsp;</div>
 </template>
 
@@ -9,8 +10,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// Importazione variabili
 @import "../../assets/scss/_vars.scss";
 
+// Stilizzazione divisore
 .divider {
   position: relative;
   &::before,

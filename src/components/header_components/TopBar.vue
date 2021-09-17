@@ -28,7 +28,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// Importazione variabili
 @import "../../assets/scss/_vars.scss";
+
 a {
   color: $fifthColor;
   &:hover {

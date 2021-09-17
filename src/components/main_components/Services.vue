@@ -1,7 +1,9 @@
 <template>
+  <!-- Sezione con i servizi offerti dall'agenzia -->
   <div id="services">
     <div class="container-fluid">
       <div class="row align-items-center">
+        <!-- Cosa fa l'agenzia -->
         <div class="col-5">
           <div class="content">
             <h2>
@@ -13,6 +15,7 @@
             <button class="button btn-standard my-3">VIEW ALL</button>
           </div>
         </div>
+        <!-- I servizi -->
         <div class="col-7">
           <div class="row gy-5">
             <div
@@ -37,12 +40,14 @@
 </template>
 
 <script>
+// Importazione componenti
 import Divider from "../_generals/Divider.vue";
 
 export default {
   name: "Services",
   data() {
     return {
+      // Array coi servizi offerti
       services: [
         {
           icon: {
@@ -79,6 +84,7 @@ export default {
       ],
     };
   },
+  // Registrazione componenti
   components: {
     Divider,
   },
@@ -86,8 +92,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// Importazione variabili
 @import "../../assets/scss/_vars.scss";
 
+// Stilizzazione sezione servizi
 #services {
   .card {
     border: none;

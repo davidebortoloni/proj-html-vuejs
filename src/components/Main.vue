@@ -12,6 +12,7 @@
 </template>
 
 <script>
+// Importazione componenti
 import Hero from "./main_components/Hero.vue";
 import Services from "./main_components/Services.vue";
 import OurMission from "./main_components/OurMission.vue";
@@ -23,6 +24,7 @@ import Clients from "./main_components/Clients.vue";
 
 export default {
   name: "Main",
+  // Registrazione componenti
   components: {
     Hero,
     Services,
