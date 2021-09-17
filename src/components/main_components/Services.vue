@@ -1,7 +1,7 @@
 <template>
   <div id="services">
-    <div class="container-fluid h-100">
-      <div class="h-100 row align-items-center">
+    <div class="container-fluid">
+      <div class="row align-items-center">
         <div class="col-5">
           <div class="content">
             <h2>
@@ -88,22 +88,24 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/_vars.scss";
 
-h2 {
-  font-weight: 600 !important;
-}
-.card {
-  border: none;
-  box-shadow: 0 0 40px -15px $sixthColor;
-  padding: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-  color: $thirdColor;
-  &:hover {
-    background: linear-gradient(90deg, $secondaryColor, $mainColor);
-    color: white;
+#services {
+  h2 {
+    font-weight: 600 !important;
   }
-  .icon {
-    font-size: 70px;
+  .card {
+    border: none;
+    box-shadow: 0 0 40px -15px $sixthColor;
+    padding: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: $thirdColor;
+    &:hover {
+      background: linear-gradient(90deg, $secondaryColor, $mainColor);
+      color: white;
+    }
+    .icon {
+      font-size: 70px;
+    }
   }
 }
 </style>

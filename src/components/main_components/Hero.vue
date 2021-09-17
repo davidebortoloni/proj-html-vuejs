@@ -54,10 +54,12 @@ export default {
 #hero {
   height: 1100px;
   overflow: hidden;
-  margin-bottom: 200px;
   .content {
     position: relative;
     top: 50px;
+    h2 {
+      font-weight: 700 !important;
+    }
     p {
       font-family: "Ubuntu", sans-serif;
       font-weight: 300;
