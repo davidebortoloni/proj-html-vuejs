@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div id="top-bar">
     <div class="container">
       <div class="row justify-content-between py-2 text-white">
-        <div class="col-auto tel text-small">
+        <div class="col-auto tel">
           (001) 88451234&nbsp; &nbsp; &nbsp;88455438
         </div>
         <div class="col-auto">
@@ -36,6 +36,7 @@ a {
   }
 }
 .tel {
+  font-size: 14px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: $fifthColor;

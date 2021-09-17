@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <Hero class="distancing" />
     <Services class="distancing" />
     <OurMission class="distancing" />
@@ -8,7 +8,7 @@
     <News class="distancing" />
     <CallsToAction />
     <Clients class="distancing" />
-  </div>
+  </main>
 </template>
 
 <script>

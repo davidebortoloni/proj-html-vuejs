@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <nav id="top-nav">
     <div class="container">
       <div class="row justify-content-between align-items-center py-4">
         <div class="col-auto">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>

@@ -20,7 +20,7 @@
               v-for="(service, index) in services"
               :key="index"
             >
-              <div class="card">
+              <div class="card h-100">
                 <fa
                   :icon="[service.icon.family, service.icon.name]"
                   class="icon my-3"
