@@ -141,8 +141,8 @@ export default {
         text-transform: uppercase;
         font-size: 17px;
         &.dot::after {
-          content: "\00B7";
-          margin: 0 10px;
+          content: "\2022";
+          margin: 0 8px;
         }
       }
     }
