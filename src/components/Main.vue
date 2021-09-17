@@ -7,6 +7,7 @@
     <Testimonials class="distancing" />
     <News class="distancing" />
     <CallsToAction />
+    <Clients class="distancing" />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import OurProjects from "./main_components/OurProjects.vue";
 import Testimonials from "./main_components/Testimonials.vue";
 import News from "./main_components/News.vue";
 import CallsToAction from "./main_components/CallsToAction.vue";
+import Clients from "./main_components/Clients.vue";
 
 export default {
   name: "Main",
@@ -29,6 +31,7 @@ export default {
     Testimonials,
     News,
     CallsToAction,
+    Clients,
   },
 };
 </script>

@@ -66,6 +66,7 @@ export default {
         width: 80%;
         background-color: transparent;
         border: none;
+        color: white;
         &:focus {
           outline-width: 0;
         }
